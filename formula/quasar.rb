@@ -13,6 +13,6 @@ class Quasar < Formula
 
   # Homebrew requires tests.
   test do
-    assert_match "quasar version 0.0.1", shell_output("#{bin}/quasar -v", 2)
+    assert_match " 0.0.1", shell_output("#{bin}/quasar -V", 2)
   end
 end
