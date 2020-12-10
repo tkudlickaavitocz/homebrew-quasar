@@ -6,6 +6,7 @@ class Quasar < Formula
   url "https://github.com/tkudlickaavitocz/homebrew-quasar/archive/v0.0.1.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
   sha256 "c4bb34abd18ef743572c085fcbaf0a4d5c0770a7c889ae5ce422213bb35e80d4"
   head "https://github.com/tkudlickaavitocz/homebrew-quasar.git"
+  version "0.0.1"
 
   def install
     bin.install "quasar"
