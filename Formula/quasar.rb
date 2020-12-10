@@ -1,5 +1,5 @@
 require "formula"
-require_relative "lib/private_strategy"
+require_relative "lib/custom_download_strategy"
 class Quasar < Formula
   desc "CLI pro komunikaci s můstkem"
   homepage "https://github.com/tkudlickaavitocz/quasar-cli/"
