@@ -2,11 +2,10 @@ require "formula"
 require_relative "lib/private_strategy"
 class Quasar < Formula
   desc "CLI pro komunikaci s můstkem"
-  homepage "https://github.com/tkudlickaavitocz/homebrew-quasar"
-  url "https://github.com/tkudlickaavitocz/homebrew-quasar/archive/v0.0.1.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "c4bb34abd18ef743572c085fcbaf0a4d5c0770a7c889ae5ce422213bb35e80d4"
+  homepage "https://github.com/tkudlickaavitocz/quasar-cli/"
+  url "https://github.com/tkudlickaavitocz/quasar-cli/releases/latest/download/quasar.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  sha256 "7ca01125dc3de0971918eed08a3b8949a76345a6b4b6365907169825e67a61ee"
   head "https://github.com/tkudlickaavitocz/homebrew-quasar.git"
-  version "0.0.1"
 
   def install
     bin.install "quasar"
